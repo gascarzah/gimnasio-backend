@@ -54,9 +54,9 @@ public class Venta {
 //			   joinColumns = @JoinColumn(name = "id_venta", referencedColumnName = "idVenta"), 
 //			   inverseJoinColumns = @JoinColumn(name = "id_plan", referencedColumnName = "idPlan"))
 //	private List<Plan> planes;
-	@ManyToOne
-	@JoinColumn(name = "id_plan", nullable = false, foreignKey = @ForeignKey(name = "FK_plan"))
-	private Plan plan;
+//	@ManyToOne
+//	@JoinColumn(name = "id_plan", nullable = false, foreignKey = @ForeignKey(name = "FK_plan"))
+//	private Plan plan;
 	private String randomId;
 	
 //	@ManyToMany(cascade = {

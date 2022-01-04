@@ -36,8 +36,8 @@ public class Plan {
 //	@OneToOne(optional=false, mappedBy="plan")
 //	private Cliente cliente;
 	
-	@JsonIgnore
-	@Builder.Default
-	@OneToMany(mappedBy = "plan", cascade = { CascadeType.ALL }, orphanRemoval = true)
-	private List<Venta> ventas = new ArrayList<>();;
+//	@JsonIgnore
+//	@Builder.Default
+//	@OneToMany(mappedBy = "plan", cascade = { CascadeType.ALL }, orphanRemoval = true)
+//	private List<Venta> ventas = new ArrayList<>();;
 }
